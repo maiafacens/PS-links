@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(216, 237, 255);
+}
+
+hr {
+    margin: 40px 0;
+}
+
+#hr2 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+/*HEADER*/
+.header__h1 {
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(39, 140, 255);
+    text-decoration-style: solid;
+}
+
+
+/*ARTICLE*/
+.article__col__h2{
+    margin: 0;
+    padding: 30px 0;
+}
+
+.article__col__p {
+    text-align: justify;
+}
+
+
+/*FOOTER*/
+.footer__col__h1 {
+    margin: 0;
+    padding-top: 100px;
+    color: rgb(39, 140, 255);
+    text-decoration-style: solid;
+}
+
+.footer__col__img {
+    width: 450px;
+    height: auto;
+}
