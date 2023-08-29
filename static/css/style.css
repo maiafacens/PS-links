@@ -214,3 +214,30 @@ body main article footer .links li a:hover::after {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.center-text{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.section_btn{
+  background-color: #112;
+  margin: 5%;
+  padding: 5%;
+  font-size: 20px;
+  border-radius: 40px;
+  border: solid 2px #ddd;
+  transition-duration: 0.4s;
+}
+
+.section_btn:hover{
+  background-color: #dddddd00;
+  border: solid 2px #112;
+}
+
+.section_btn_text{
+  color: #ddd;
+  text-decoration: none;
+}
