@@ -9,23 +9,26 @@ export interface CardProps {
   href?: string;
 }
 
+export interface ICard {
+  data: CardProps;
+}
 
-export function Card(card: CardProps) {
+export function Card({data}: ICard) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleCardClick = () => {
-    if (!card.href) return
+    if (!data.href) return
 
-    window.open(card.href, '_blank')
+    window.open(data.href, '_blank')
   }
 
   return (
     <div
-      className="card"
+      className={`card ${data.author && 'link'}`}
       style={{
         backgroundImage: `
         linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, ${isHovered ? '0.9' : '0.8'}), rgba(0, 0, 0, 1)), 
-        url(${card.bannerUrl})
+        url(${data.bannerUrl})
         `,
       }}
       onClick={handleCardClick}
@@ -33,11 +36,11 @@ export function Card(card: CardProps) {
       onMouseLeave={() => setIsHovered(false)}
     >
 
-      <h2>{card.title}</h2>
+      <h2>{data.title}</h2>
       <label>
-        {card.author ? `by ${card.author}` : 'hover for more infos'}
+        {data.author ? `by ${data.author}` : 'hover for more infos'}
       </label>
-      <p>{card.description || ''}</p>
+      {data.description && <p>{data.description}</p>}
     </div>
   )
 }

@@ -3,6 +3,7 @@ import { Card } from '../../components/Card';
 import { Header } from '../../components/Header';
 import { Timeline } from '../../components/Timeline';
 import { CATEGORIES } from '../../data/CategoriesData';
+import { LINKS } from '../../data/LinksData';
 import './styles.css';
 
 export function Home() {
@@ -51,9 +52,9 @@ export function Home() {
 
           <div className="card-container">
             {
-              CATEGORIES.map(({ title, description, bannerUrl }) => {
+              CATEGORIES.map((category) => {
                 return (
-                  <Card title={title} bannerUrl={bannerUrl} description={description} />
+                  <Card data={category} />
                 )
               })
             }
@@ -84,6 +85,15 @@ export function Home() {
           <p>
             Down here we have some links with concepts and examples about artificial intelligence
           </p>
+          <div className="card-container">
+            {
+              LINKS.map((linkData) => {
+                return (
+                  <Card data={linkData} />
+                )
+              })
+            }
+          </div>
         </section>
       </div>
     </div>

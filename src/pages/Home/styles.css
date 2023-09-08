@@ -71,6 +71,10 @@
   line-height: 28px;
 }
 
+.ai-links p {
+  padding-bottom: 28px;
+}
+
 .ai-links, .categories {
   text-align: center;
 }

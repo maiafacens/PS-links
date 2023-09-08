@@ -42,3 +42,19 @@
   display: none;
 }
 
+.link {
+  width: 296px;
+  height: 200px;
+}
+
+.link h2 {
+  font-size: 16px;
+}
+
+.link p {
+  font-size: 12px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
