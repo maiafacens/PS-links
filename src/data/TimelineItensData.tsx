@@ -27,7 +27,7 @@ export const TimelineItems: TimelineItemProps[] = [
       <a href="mailto:maia@facens.br" target='_blank'>maia@facens.br</a>,
       <br />,
       "These ",
-      <a href="#links" target='_blank'>links</a>,
+      <a href="#ai-links">links</a>,
       " may be useful for the writing process.",
 
     ],

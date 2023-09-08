@@ -11,15 +11,32 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-family: 'Inter', sans-serif;
   background: var(--background-color);
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 28px;
 }
 
 a {
   color: var(--primary-color);
   font-weight: bold;
+}
+
+section {
+  padding: 40px 0 ;
 }
