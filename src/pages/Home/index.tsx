@@ -1,5 +1,6 @@
 import { Button } from '../../components/Button';
 import { Card } from '../../components/Card';
+import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Timeline } from '../../components/Timeline';
 import { CATEGORIES } from '../../data/CategoriesData';
@@ -96,6 +97,7 @@ export function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   )
 }
