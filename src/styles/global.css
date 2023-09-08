@@ -1,0 +1,25 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --container-size: 1224px;
+  --primary-color: #04B0F5;
+  --secondary-color: #00875C;
+  --background-color: #070707;
+  --primary-gradient: linear-gradient(180deg, #00875C 0%, #007EB1 100%);
+  --background-gradient: linear-gradient(2deg, rgba(0, 0, 0, 0.92) 21.22%, rgba(0, 0, 0, 0.47) 98.14%), url(<path-to-image>), lightgray 0px -10.588px / 100% 104.505% no-repeat;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  background: var(--background-color);
+  color: #FFFFFF;
+}
+
+a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
