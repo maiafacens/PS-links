@@ -7,8 +7,8 @@
   --secondary-color: #00875C;
   --background-color: #070707;
   --primary-gradient: linear-gradient(180deg, #00875C 0%, #007EB1 100%);
-  --background-future: linear-gradient(to bottom, rgba(7, 7, 7, 00), rgba(7, 7, 7, .9)), url('../src/assets/background-future.png');
-  --background-tech: linear-gradient(to bottom, rgba(7, 7, 7, 00), rgba(7, 7, 7, .9)), url('../src/assets/background-tech.png');
+  --background-future: linear-gradient(to bottom, rgba(7, 7, 7, 00), rgba(7, 7, 7, .9)), url('/background-future.png');
+  --background-tech: linear-gradient(to bottom, rgba(7, 7, 7, 00), rgba(7, 7, 7, .9)), url('/background-tech.png');
 }
 
 body {
