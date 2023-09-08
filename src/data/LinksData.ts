@@ -15,7 +15,7 @@ export const LINKS: CardProps[] = [
   },
   {
     title: 'What is Artificial Intelligence?',
-    bannerUrl: '/links/simplilearn.png',
+    bannerUrl: '/links/simplilearn.jpg',
     author: 'Simplilearn',
     href: 'https://www.youtube.com/watch?v=ad79nYk2keg',
   },
