@@ -1,16 +1,38 @@
+import { Button } from '../../components/Button';
+import { Header } from '../../components/Header';
 import { Timeline } from '../../components/Timeline';
 import './styles.css';
 
 export function Home() {
   return (
-    <div className="content">
+    <div className="container">
+      <Header />
+      <div className="content">
+      <section className="hero">
+        <div className="cta">
+          <h1>
+            THE FUTURE IS WAITING FOR YOU!
+          </h1>
+          <h2>
+            Selective Process - 2° semester 2023
+          </h2>
+          <Button text='SHOW MORE' href='#selective-process' _blank={false}/>
+        </div>
+        <img src="/brain.png" />
+      </section>
+      <section id='about-us' className="about-us">
+        <h1>
+          MAIA TEAM
+        </h1>
+
+      </section>
       <section className="categories">
         <h1>
           AVAILABLE CATEGORIES
         </h1>
 
       </section>
-      <section className="selective-process">
+      <section id='selective-process' className="selective-process">
         <h1>
           SELECTIVE PROCESS
         </h1>
@@ -32,9 +54,10 @@ export function Home() {
           ABOUT ARTIFICIAL INTELLIGENCE
         </h1>
         <p>
-          Down here we have some links with concepts and examples about artificial intelligence, and these links can be useful to the article writing process.
+          Down here we have some links with concepts and examples about artificial intelligence
         </p>
       </section>
+    </div>
     </div>
   )
 }
