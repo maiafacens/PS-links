@@ -40,6 +40,15 @@
   width: 460px;
 }
 
+.about-us {
+  display: flex;
+}
+
+.about-us img {
+  width: 40%;
+  margin-right: 80px;
+}
+
 .selective-process > h1,
 .selective-process > p {
   text-align: center;

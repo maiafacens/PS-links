@@ -17,7 +17,8 @@ export function Timeline() {
               key={i + item.title}
               icon={item.icon}
               contentStyle={{
-                background: '#151515'
+                boxShadow: `0 -3px 0 var(--${item.color}-color)`,
+                background: '#151515',
               }}
               contentArrowStyle={{ display: 'none' }}
               iconStyle={{
