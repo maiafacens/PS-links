@@ -26,9 +26,7 @@ export function Timeline() {
             >
               <h3>{item.title}</h3>
               <h4>{item.date}</h4>
-              <p>
-                {item.text}
-              </p>
+              { item.text }
             </VerticalTimelineElement>
           )
         })
