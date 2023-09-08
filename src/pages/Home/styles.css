@@ -49,6 +49,14 @@
   margin-right: 80px;
 }
 
+.card-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .selective-process > h1,
 .selective-process > p {
   text-align: center;
