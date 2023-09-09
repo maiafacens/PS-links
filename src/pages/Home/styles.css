@@ -113,11 +113,27 @@
     margin: 40px 0 0 0;
     width: 60%;
   }
+
+  .categories .card {
+    width: 280px;
+  }
+
+  .categories .card p {
+    font-size: 13px;
+  }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 730px) {
   .about-us img {
     width: 86%;
+  }
+
+  .categories .card {
+    width: 90%;
+  }
+
+  .categories .card p {
+    font-size: 16px;
   }
 }
 
