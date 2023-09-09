@@ -20,7 +20,9 @@ export function Header() {
   return (
     <div className='header'>
       <div className="header-content">
-        <img src='/logo-menu.svg' alt="MAIA Logo" />
+        <a href="#hero">
+          <img src='/logo-menu.svg' alt="MAIA Logo" />
+        </a>
 
         <nav id='menu' className="menu">
           <a href="#about-us" onClick={handleMenuClick} className='menu-active'>About Us</a>

@@ -47,7 +47,14 @@ p {
 a {
   color: var(--primary-color);
   font-weight: bold;
+
+  transition: all .2s ease-in-out;
 }
+
+a:hover {
+  filter: brightness(70%);
+}
+
 
 section {
   padding-top: 100px;

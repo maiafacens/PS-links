@@ -12,7 +12,7 @@ export function Home() {
     <div className="container">
       <Header />
       <div className="content">
-        <section className="hero">
+        <section id='hero' className="hero">
           <div className="cta">
             <h1>
               THE FUTURE IS WAITING FOR YOU!
