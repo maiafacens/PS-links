@@ -5,6 +5,8 @@ O MAIA é um subnúcleo do LINCE e tem como objetivo oferecer uma oportunidade �
 
 Para o desenvolvimento utilizei as seguintes tecnologias: ReactJS, Typescript e CSS.
 
+DEPLOY: [CLIQUE PARA VER O PROJETO](https://maia-redesign.vercel.app/)
+
 OBS: Também escrevi um artigo sobre IA para esse processo seletivo [(Clique aqui para ler)](./docs/Article.md)
 
 ![Thumbnail MAIA](./docs/thumbnail.png)
