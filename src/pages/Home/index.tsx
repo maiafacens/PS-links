@@ -25,7 +25,7 @@ export function Home() {
           <img src="/brain.png" />
         </section>
         <section id='about-us' className="about-us">
-          <img src="/maia-team.png" />
+          <img src="/maia-team.png"  alt='MAIA Team' />
 
           <div className="maia-team">
             <h1>
