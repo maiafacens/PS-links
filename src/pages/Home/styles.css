@@ -50,9 +50,8 @@
 }
 
 .about-us img {
-  width: 40%;
-  height: 100%;
-  margin-right: 5%;
+  width: 400px;
+  margin-right: 48px;
 }
 
 .card-container {
@@ -106,7 +105,8 @@
 
   .about-us img {
     margin: 40px 0 0 0;
-    width: 60%;
+    content: url('/maia-team-mobile.png');
+    width: 80%;
   }
 
   .categories .card {

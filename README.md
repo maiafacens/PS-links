@@ -1,5 +1,5 @@
 # MAIA Redesign
-Landing page criada para um processo seletivo do <a href="https://lince.facens.br/maia-mobilidade-aplicada-e-inteligencia-artificial/" target="_blank">MAIA FACENS</a>.
+Landing page criada para um processo seletivo do [MAIA FACENS](https://lince.facens.br/maia-mobilidade-aplicada-e-inteligencia-artificial/).
 
 O MAIA é um subnúcleo do LINCE e tem como objetivo oferecer uma oportunidade ímpar aos alunos de terem contato na prática com tecnologias disruptivas, tais como veículos elétricos, veículos autônomos, algoritmos preditivos, dentre outras Aplicações em Mobilidade e Inteligência Artificial (IA).
 
@@ -10,7 +10,7 @@ OBS: Também escrevi um artigo sobre IA para esse processo seletivo [(Clique aqu
 ![Thumbnail MAIA](./docs/thumbnail.png)
 
 ## Manual de uso
-### Inicialiando o site - <a href="http://localhost:5173/" target="_blank">http://localhost:5173/</a>
+### Inicialiando o site - [http://localhost:5173/](http://localhost:5173/)
 ```sh
 npm install
 ```
@@ -18,6 +18,6 @@ npm install
 npm run dev
 ```
 
-## Design - <a href="https://www.figma.com/community/file/1282372531767949969" target="_blank">Abrir no Figma</a>
+## Design - [Abrir no Figma](https://www.figma.com/community/file/1282372531767949969)
 
 ![Landing Page MAIA](./docs/landing-page.png)
