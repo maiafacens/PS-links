@@ -18,10 +18,10 @@
   align-items: center;
   width: 100%;
   max-width: var(--container-size);
-  padding: 30px 75px;
+  padding: 30px var(--padding-x);
 }
 
-.header > img {
+.header img {
   height: 26px;
 }
 
@@ -54,7 +54,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 764px) {
   .navbar,
   .header-content > .btn {
     display: none;
@@ -71,9 +71,13 @@
     width: 100%;
   }
 
+  .header-top img {
+    height: 22px;
+  }
+
   .navbar > .btn, 
   .mobile {
-    display: block;
+    display: flex;
   }
 
   .menu-toggle:checked~#menu-icon {
