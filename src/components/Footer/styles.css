@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background: #1C1C1D;
@@ -10,10 +11,20 @@ footer {
 }
 
 footer img {
-  height: 80px;
+  width: 256px;
 }
 
-footer p {
-  text-align: center;
-  margin-top: 60px;
+@media only screen and (max-width: 700px) {
+  footer {
+    padding: 80px 30px;
+  }
+
+  footer a {
+    width: 40%;
+  }
+
+  footer img {
+    width: 100%;
+  }
+  
 }
