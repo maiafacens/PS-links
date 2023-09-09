@@ -118,11 +118,18 @@
   }
 }
 
+@media only screen and (max-width: 764px) {
+  .ai-links .card {
+    width: 280px;
+  }
+}
+
 @media only screen and (max-width: 730px) {
   .about-us img {
     width: 86%;
   }
 
+  .ai-links .card,
   .categories .card {
     width: 90%;
   }
